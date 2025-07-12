@@ -1,5 +1,5 @@
 <?php
-
+define('SECRET_KEY', 'a0646de9a0646de9a0646de96ca354d50daa064a0646de9c873c70dd4323686870203fb');
 
 // --- Функция для проверки подписи запроса от VK ---
 function check_signature($params, $secret_key) {
